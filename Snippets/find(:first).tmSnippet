@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>find(:first${1:, :conditions =&gt; ['${2:${3:field} = ?}', ${5:true}]})</string>
+	<string>first(${1:${2::field} =&gt; ${3:"value"}}})</string>
 	<key>name</key>
-	<string>find(:first)</string>
+	<string>first</string>
 	<key>scope</key>
 	<string>meta.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>finf</string>
+	<string>f</string>
 	<key>uuid</key>
 	<string>EAF28BF2-C240-46B5-B216-52A117841FDE</string>
 </dict>

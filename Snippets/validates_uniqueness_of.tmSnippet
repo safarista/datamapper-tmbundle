@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>has 1, :${1:object}</string>
+	<string>validates_uniqueness_of :${1:attribute}${2:, :message =&gt; "${4: There can only be one $1}"}</string>
 	<key>name</key>
-	<string>has 1 (Has One)</string>
+	<string>validates_uniqueness_of</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>ho</string>
+	<string>vuo</string>
 	<key>uuid</key>
-	<string>CA91EB36-F4AC-4C03-A1C0-6D1F2750966A</string>
+	<string>EC487449-D918-45FD-8AF4-7D0FB2F7A583</string>
 </dict>
 </plist>

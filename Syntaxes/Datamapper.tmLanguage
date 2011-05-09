@@ -47,11 +47,34 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.datamapper.basic</string>
+			<string>source.ruby</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>source.ruby</string>
+			<key>begin</key>
+			<string>(^\s*)(?=class\s+.+DataMapper::Resource)</string>
+			<key>comment</key>
+			<string>Uses lookahead to match classes that (may) inherit from DataMapper::Resource; includes 'source.ruby' to avoid infinite recursion</string>
+			<key>end</key>
+			<string>^\1(?=end)\b</string>
+			<key>name</key>
+			<string>meta.ruby.datamapper.model</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(belongs_to|property|has\s+[\dn]|validates_[\w\_]+|after\s|before\s)\b</string>
+			<key>name</key>
+			<string>support.function.datamapper</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

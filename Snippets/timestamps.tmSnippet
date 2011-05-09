@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>property :created_at, DateTime
-property :created_on, Date
-property :updated_at, DateTime
-property :updated_on, Date</string>
+	<string>timestamps(${1::at})</string>
 	<key>name</key>
 	<string>timestamps</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>timestamps</string>
+	<string>ts</string>
 	<key>uuid</key>
 	<string>468A0DEC-5FD2-437E-B286-158AF42CA8C2</string>
 </dict>

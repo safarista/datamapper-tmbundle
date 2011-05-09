@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>has 1, :${1:object}</string>
+	<string>validates_acceptance_of :${1:attribute}${2:, :message =&gt; "${4:$1 must be accepted}"}</string>
 	<key>name</key>
-	<string>has 1 (Has One)</string>
+	<string>validates_acceptance_of</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>ho</string>
+	<string>vao</string>
 	<key>uuid</key>
-	<string>CA91EB36-F4AC-4C03-A1C0-6D1F2750966A</string>
+	<string>04EC875B-2137-43B0-8873-E8B3C25486FB</string>
 </dict>
 </plist>

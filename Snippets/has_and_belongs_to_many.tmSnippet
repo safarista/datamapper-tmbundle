@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
 	<string>has n, :${1:objects}${2:, :through =&gt; :${4:taggings}}</string>
 	<key>name</key>
-	<string>has_and_belongs_to_many</string>
+	<string>has n, :through</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>habtm</string>
+	<string>hmt</string>
 	<key>uuid</key>
 	<string>F58498D4-8AD7-4735-907C-B30DF1D4BAC7</string>
 </dict>

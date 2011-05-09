@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>vp</string>
+	<string>vpo</string>
 	<key>uuid</key>
 	<string>F1011B18-A282-489C-A8E0-CAF8502BE401</string>
 </dict>

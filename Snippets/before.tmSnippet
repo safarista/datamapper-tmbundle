@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>has 1, :${1:object}</string>
+	<string>before :${1:some_method}, :${2:other_method}</string>
 	<key>name</key>
-	<string>has 1 (Has One)</string>
+	<string>before</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper</string>
 	<key>tabTrigger</key>
-	<string>ho</string>
+	<string>bef</string>
 	<key>uuid</key>
-	<string>CA91EB36-F4AC-4C03-A1C0-6D1F2750966A</string>
+	<string>1EAD60B9-89A6-4F80-A642-29C370820410</string>
 </dict>
 </plist>
