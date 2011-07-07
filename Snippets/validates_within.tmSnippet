@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>validates_within :${1:attribute}${2:, :length =&gt; 10..20}</string>
+	<string>validates_within :${1:attribute}${2:, :set =&gt; []}</string>
 	<key>name</key>
 	<string>validates_within</string>
 	<key>scope</key>

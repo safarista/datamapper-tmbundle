@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>has n, :${1:objects}${2:, :through =&gt; :${4:taggings}}</string>
+	<string>has n, :${1:objects}${2:, :through =&gt; ${4:Resource}}</string>
 	<key>name</key>
 	<string>has n, :through</string>
 	<key>scope</key>

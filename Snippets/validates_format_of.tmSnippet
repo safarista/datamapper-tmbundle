@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>validates_presence_of :${1:attribute}, :with =&gt; ${2:/w+/}</string>
+	<string>validates_format_of :${1:attribute}, :with =&gt; ${2:/w+/}</string>
 	<key>name</key>
 	<string>validates_format_of</string>
 	<key>scope</key>
