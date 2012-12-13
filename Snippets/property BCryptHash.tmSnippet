@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>property :${1:property_name}, BCryptHash</string>
+	<key>name</key>
+	<string>property BCryptHash</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper</string>
+	<key>tabTrigger</key>
+	<string>prop</string>
+	<key>uuid</key>
+	<string>512210AA-B1CA-45D5-A25A-09774C91AAA7</string>
+</dict>
+</plist>
